@@ -16,5 +16,6 @@ Please execute npm install
 7. Logging Level - Proxy server supports 8 logging levels (emerg | alert | crit | error | warn | notice | info | debug). The logging level can be changed using loglevel argument.<BR/>
 8. Documentation - Detailed documentation can be obtained by passing -h argument.<BR/>
 
-Demo:
+Proxy-Server Demo: Please zoom in if image is not visible. Sorry for inconvenience. (Image Location - https://github.com/vasupalanisamy/proxy-server/blob/master/proxy-server-demo.gif)
 ![alt tag](https://github.com/vasupalanisamy/proxy-server/blob/master/proxy-server-demo.gif)
+
