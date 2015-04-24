@@ -53,6 +53,7 @@ http.createServer((req, res) => {
 	if(req.headers['x-destination-url']){
 		url = req.headers['x-destination-url']
 	}
+	logInfo('url' + url)
 	let options = {
 		headers: req.headers,
 		url: url + req.url
@@ -106,7 +107,7 @@ function log(level, content) {
 	    if (content instanceof stream.Stream) {
     		through(content, logStream, {autoDestroy: false})
     	} else {
-    		logStream.write (content)
+    		logStream.write ('[' + level + ']' + content)
     	}
     }
 }
