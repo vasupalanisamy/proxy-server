@@ -1,5 +1,7 @@
 This is a simple proxy server developed using Node.js. This was developed as prework for Node.js bootcamp
 
+Time spent: 6 hrs
+
 **Installation:**<BR/>
 Please execute npm install
 
